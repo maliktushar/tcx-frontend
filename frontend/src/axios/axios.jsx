@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: 'http://34.229.97.146/',
+  baseURL: 'https://cybergamingcoding.co.in/',
 });
 
 export async function login(data) {
