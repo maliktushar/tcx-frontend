@@ -3,7 +3,8 @@
       { "src": "/", "dest": "/" },
       { "src": "/signup", "dest": "/" },
       { "src": "/login", "dest": "/" },
-      { "src": "/courses", "dest": "/" }
+      { "src": "/courses", "dest": "/" },
+      { "src": "/", "dest": "http://34.229.97.146/" }
       
     ]
   }
