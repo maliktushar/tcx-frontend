@@ -19,15 +19,15 @@ const Footer = () => {
         <div className='flex flex-col gap-5 text-right'>
           <div className='flex flex-row gap-6 justify-center items-center text-lg'>
             <p>Learn</p>
-            <p>Blogs</p>
+            <p>Certify</p>
             <p>Blogs</p>
             <p>About</p>
           </div>
           <div className='flex flex-row gap-4 justify-center items-center'>
-            <img src={e4} alt="" />
-            <img src={e3} alt="" />
-            <img src={e2} alt="" />
-            <img src={e1} alt="" />
+           <a href= "https://www.instagram.com/tcx.100/"><img src={e4} alt="instagram"/></a> 
+            <a href="tcx.techcurators@gmail.com"><img src={e3} alt="gmail" /></a>
+            <a href="https://www.linkedin.com/company/tcx-grow-100x/"><img src={e2} alt="linkedin" /></a>
+            <a href="https://x.com/TCx_100"><img src={e1} alt="twitter" /></a>
           </div>
         </div>
       </div>
