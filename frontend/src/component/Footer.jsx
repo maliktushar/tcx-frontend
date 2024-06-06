@@ -18,10 +18,10 @@ const Footer = () => {
         <a href="/"><img  src={logo} alt="" className='w-24' /></a>
         <div className='flex flex-col gap-5 text-right'>
           <div className='flex flex-row gap-6 justify-center items-center text-lg'>
-            <p>Learn</p>
-            <p>Certify</p>
-            <p>Blogs</p>
-            <p>About</p>
+            <a href="/courses"><p>Learn</p></a>
+            <a href="/"><p>Certify</p></a>
+            <a href="/"><p>Blogs</p></a>
+            <a href="/"><p>About</p></a>
           </div>
           <div className='flex flex-row gap-4 justify-center items-center'>
            <a href= "https://www.instagram.com/tcx.100/"><img src={e4} alt="instagram"/></a> 
